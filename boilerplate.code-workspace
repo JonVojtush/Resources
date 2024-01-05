@@ -15,6 +15,7 @@
 		"diffEditor.experimental.showEmptyDecorations": false,
 		"diffEditor.experimental.showMoves": true,
 		"editor.guides.bracketPairs": true,
+		"editor.minimap.autohide": true,
 		"editor.tabSize": 2,
 		"explorer.confirmDragAndDrop": false,
 		"explorer.confirmDelete": false,
