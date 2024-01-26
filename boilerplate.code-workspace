@@ -2,7 +2,44 @@
 	"folders": [
 		{
 			"path": "../"
+		},
+
+// -----------
+		// LINUX
+// -----------
+		/*{
+			"path": "/media/dietpi/STICK"
+		}*/
+
+// -----------
+		// WINDOWS
+// -----------
+		/*,{
+			"path": "C:\\Users\\jonat\\go"
+			,"name": "GoLang"
 		}
+		
+		,{
+			"path": "C:\\Users\\jonat\\python"
+			,"name": "Python"
+		}
+		
+		,{
+			"path": "C:\\Users\\jonat\\Downloads"
+		}
+		
+		,{
+			"path": "C:\\Users\\jonat\\Documents"
+		}
+
+		,{
+			"path": "C:\\xampp\\htdocs"
+			,"name": "XAMPP"
+		}
+		
+		,{
+			"path": "C:\\Users\\jonat\\Scoop\\apps"
+		}*/
 	],
 	"settings": {
 		"diffEditor.codeLens": true,
@@ -22,14 +59,7 @@
 		"git.autofetch": true,
 		"git.enableSmartCommit": true,
 		"git.confirmSync": false,
-		"go.toolsEnvVars": {
-			"GOROOT": "C:\\Program Files\\Go",
-			"GOENV": "C:\\Users\\USER\\go\\env",
-			"GOBIN": "C:\\Users\\USER\\go\\bin",
-			"GOPATH": "C:\\Users\\USER\\go"
-		},
 		"go.toolsManagement.autoUpdate": true,
-		//"go.toolsManagement.checkForUpdates": "off",
 		"gopls": {
 			"ui.semanticTokens": true,
 			"formatting.gofumpt": true,
@@ -39,20 +69,7 @@
 		"php.debug.port": [
  			9003
     ],
-		"php.validate.executablePath": "c:\\xampp\\php\\php.exe",
 		"redhat.telemetry.enabled": false,
-		/*"sqltools.connections": [
-			{
-				"server": "",
-				"port": ,
-				"driver": "",
-				"group": "",
-				"name": "",
-				"database": "",
-				"username": "",
-				"password": ""
-			}
-		],*/
 		"sqltools.defaultExportType": "csv",
 		"terminal.integrated.defaultProfile.windows": "Git Bash",
 		"vsicons.dontShowNewVersionMessage": true,
@@ -61,6 +78,49 @@
 		//"workbench.colorTheme": "Quiet Light",
 		"workbench.iconTheme": "vscode-icons",
 		//"xml.symbols.maxItemsComputed": 0,
-		"xml.server.vmargs": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication"
+		"xml.server.vmargs": "-Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication",
+
+// -----------
+		// LINUX
+// -----------
+		/*"go.toolsEnvVars": {
+			"GOBIN": "/media/dietpi/STICK/go/bin",
+			"GOPATH":  "/media/dietpi/STICK/go",
+		},
+		"php.validate.executablePath": "",
+		"sqltools.connections": [
+			{
+				"server": ""
+				,"port": 80
+				,"driver": ""
+				,"name": ""
+				,"group": ""
+				,"username": ""
+				,"database": ""
+				,"password": ""
+			}
+		],*/
+
+// -----------
+		// WINDOWS
+// -----------
+		/*"go.toolsEnvVars": {
+			"GOROOT": "C:\\Users\\jonat\\scoop\\apps\\go\\current"
+			,"GOBIN": "C:\\Users\\jonat\\go\\bin"
+			,"GOPATH":  "C:\\Users\\jonat\\go"
+		},
+		"php.validate.executablePath": "c:\\xampp\\php\\php.exe",
+		"sqltools.connections": [
+			{
+				"server": ""
+				,"port": 80
+				,"driver": ""
+				,"name": ""
+				,"group": ""
+				,"username": ""
+				,"database": ""
+				,"password": ""
+			}
+		],*/
 	}
 }
