@@ -1,0 +1,38 @@
+Quick
+sftp> put – Upload file
+sftp> get – Download file
+sftp> cd path – Change remote directory to ‘path’
+sftp> pwd – Display remote working directory
+sftp> lcd path – Change the local directory to ‘path’
+sftp> lpwd – Display local working directory
+sftp> ls – Display the contents of the remote working directory
+sftp> lls – Display the contents of the local working directory
+
+
+Command	Description
+cd [path]	Change the directory on the remote server to [path].
+lcd [path]	Change the directory on the local system to [path].
+chgrp [group ID] [path]	Change group ownership to [group ID] for the file or folder located at [path].
+chmod [mode] [path]	Change ownership to [mode] for the file or folder located at [path].
+chown [user ID] [path]	Change user ownership to [user ID] for the file or folder located at [path].
+help	Display the help text.
+get [remote path] [local path]	Transfer a file or directory from [remote path] on the remote server to [local path] on the local system.
+lls [options] [path]	Display the listing for the directory located at [path] on the local system. Uses the ls command options.
+ln [old path] [new path]	Create a symlink from [old path] to [new path] on the remote server.
+lmkdir [path]	Create a directory at [path] on the local system.
+lpwd	Display the current local directory.
+ls [options] [path]	Display the listing for the directory located at [path] on the remote server. Uses the ls command options.
+lumask [mask]	Set local permissions mask to [mask].
+mkdir [path]	Create a directory at [path] on the remote server.
+put [local path] [remote path]	Transfer a file or directory from [local path] on the local system to [remote path] on the remote server.
+pwd	Display the current remote directory.
+exit	Exit the SFTP interface.
+quit	Exit the SFTP interface.
+rename [old path] [new path]	Rename a file on the remote server from [old path] to [new path].
+rmdir [path]	Remove a directory located at [path] on the remote server.
+rm [path]	Remove a file located at [path] on the remote server.
+symlink [old path] [new path]	Create a symlink from [old path] to [new path] on the remote server.
+version	Display the current version of SFTP
+![command]	Execute <strong>[command]</strong> in the local shell.
+!	Temporarily move to the local shell.
+?	Display the help text.
