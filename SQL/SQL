@@ -1,0 +1,5 @@
+est whether two strings are the same and return "YES" if they are, or "NO" if not:
+  SELECT IF(STRCMP("hello","bye") = 0, "YES", "NO");
+
+Return 5 if the condition is TRUE, or 10 if the condition is FALSE:
+  SELECT IF(500<1000, 5, 10);
