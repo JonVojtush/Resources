@@ -4,8 +4,8 @@ grep -rni "value" /DIRECTORY/PATH/* > output.file
 
 ########################################################################
 
-# & = Run one after the other is successful
-# && = concurrent threads
+# && = Run one after the other is successful
+# & = concurrent threads
 
 ########################################################################
 
