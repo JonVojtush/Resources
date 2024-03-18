@@ -3,3 +3,5 @@ est whether two strings are the same and return "YES" if they are, or "NO" if no
 
 Return 5 if the condition is TRUE, or 10 if the condition is FALSE:
   SELECT IF(500<1000, 5, 10);
+
+  pg_typeof()
